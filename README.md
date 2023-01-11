@@ -31,8 +31,7 @@ This is a studying project.
 
 [solidity code sample](https://solidity-by-example.org/)
 
-[deApp NFT Marketplace/NFT Factory/NFTcode]
-https://github.com/Fantom-foundation/Artion-Contracts/tree/5c90d2bc0401af6fb5abf35b860b762b31dfee02/contracts
+[deApp NFT Marketplace/NFT Factory/NFTcode](https://github.com/Fantom-foundation/Artion-Contracts/tree/5c90d2bc0401af6fb5abf35b860b762b31dfee02/contracts)
 
 [Github NFTicket hackathon](https://github.com/Abbas-Khann/NFTicket)
 
