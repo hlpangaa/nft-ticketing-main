@@ -3,10 +3,13 @@ main repo for nft ticketing
 
 This is a studying project.
 
-# Network
+# Remark
 ---
-## Goerli
+## Use Goerli Network 
 Currently deployed to test net only. Please swap to **Goerli** network to interact with the web and contract.
+
+## Use new testing wallet
+Event it's pre-production. Please do not use real wallet to interact. Do not just simply create a new testing account in your existing wallet as the seed(and private key) is the same. So using that testing account might leak your key.
 
 # Repo
 ---
