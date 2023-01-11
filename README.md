@@ -3,23 +3,25 @@ main repo for nft ticketing
 
 This is a studying project.
 
-Repo
+# Repo
 ---
 [Backend](https://github.com/hlpangaa/hardhat-nft-ticketing)
+
 [Frontend](https://github.com/hlpangaa/nextjs-nft-ticketing)
+
 [Subgraph](https://github.com/hlpangaa/subgraph-nft-ticketing)
 
 
-Service
+# Service
 ---
 [Pinata](https://app.pinata.cloud/pinmanager#)
+
 [TheGraph](https://thegraph.com/studio/subgraph/nftticketing/playground)
+
 [Etherscan](https://goerli.etherscan.io/address/0x784740178e1879c4da1544c53ae658bbf0f8a078)
 
 
-
-
-Reference
+# Reference
 ---
 [Patrick Collins freeCodeCamp](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
 
