@@ -5,6 +5,8 @@ This is a studying project.
 
 [Project Team One Drive](https://connecthkuhk-my.sharepoint.com/personal/u3590287_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu3590287%5Fconnect%5Fhku%5Fhk%2FDocuments%2FFITE7001%5FA%2DTeam&FolderCTID=0x012000E1CEC5B499A6824BB24DB935A2B2CB10)
 
+[Project Timeline](https://www.notion.so/ba99bc82597f40ea9b77d748156058a2?v=0cc4e4853e184202978bc97287c6416f)
+
 # Remark
 ---
 ## Use Goerli Network 
