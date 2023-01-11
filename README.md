@@ -6,7 +6,7 @@ This is a studying project.
 # Network
 ---
 ## Goerli
-Please swap to Goerli network to interact with the web and contract.
+Currently deployed to test net only. Please swap to **Goerli** network to interact with the web and contract.
 
 # Repo
 ---
