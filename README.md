@@ -3,6 +3,11 @@ main repo for nft ticketing
 
 This is a studying project.
 
+# Network
+---
+## Goerli
+Please swap to Goerli network to interact with the web and contract.
+
 # Repo
 ---
 [Backend](https://github.com/hlpangaa/hardhat-nft-ticketing)
