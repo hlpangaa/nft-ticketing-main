@@ -28,6 +28,8 @@ Event it's pre-production. Please do not use real wallet to interact. Do not jus
 ---
 [Fleek IPFS Node](https://little-poetry-5496.on.fleek.co)
 
+Notes: install metamask in your OS. Connect to Wallet, change the network to Goerli.
+
 # Service
 ---
 [Pinata](https://app.pinata.cloud/pinmanager#)
