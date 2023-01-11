@@ -3,6 +3,8 @@ main repo for nft ticketing
 
 This is a studying project.
 
+[Project Team One Drive](https://connecthkuhk-my.sharepoint.com/personal/u3590287_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu3590287%5Fconnect%5Fhku%5Fhk%2FDocuments%2FFITE7001%5FA%2DTeam&FolderCTID=0x012000E1CEC5B499A6824BB24DB935A2B2CB10)
+
 # Remark
 ---
 ## Use Goerli Network 
@@ -19,7 +21,6 @@ Event it's pre-production. Please do not use real wallet to interact. Do not jus
 
 [Subgraph](https://github.com/hlpangaa/subgraph-nft-ticketing)
 
-[Project Team One Drive](https://connecthkuhk-my.sharepoint.com/personal/u3590287_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu3590287%5Fconnect%5Fhku%5Fhk%2FDocuments%2FFITE7001%5FA%2DTeam&FolderCTID=0x012000E1CEC5B499A6824BB24DB935A2B2CB10)
 
 # Site
 ---
