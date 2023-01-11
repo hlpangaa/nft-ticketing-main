@@ -11,6 +11,11 @@ This is a studying project.
 
 [Subgraph](https://github.com/hlpangaa/subgraph-nft-ticketing)
 
+[Project Team One Drive](https://connecthkuhk-my.sharepoint.com/personal/u3590287_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu3590287%5Fconnect%5Fhku%5Fhk%2FDocuments%2FFITE7001%5FA%2DTeam&FolderCTID=0x012000E1CEC5B499A6824BB24DB935A2B2CB10)
+
+# Site
+---
+[Fleek IPFS Node](https://little-poetry-5496.on.fleek.co)
 
 # Service
 ---
@@ -20,6 +25,7 @@ This is a studying project.
 
 [Etherscan](https://goerli.etherscan.io/address/0x784740178e1879c4da1544c53ae658bbf0f8a078)
 
+[Fleek](https://app.fleek.co/#/sites/little-poetry-5496/settings/general?accountId=d5e70534-8482-4d48-bad2-440122944ad5)
 
 # Reference
 ---
