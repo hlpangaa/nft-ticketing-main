@@ -26,15 +26,15 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 
 ### ERC
 ---
-erc721 NFT
-erc2309 Consecutive
-ERC2981 Royalty payment
-SDK from providers
+- erc721 NFT
+- erc2309 Consecutive
+- ERC2981 Royalty payment
+- SDK from providers
 
 ### Web3 developemnt library
-openzeppelin
-Web3uikit
-tailwindcss
+- openzeppelin
+- Web3uikit
+- tailwindcss
 
 ## Scope of functions
 - [ ] 1. eventFactory.sol
