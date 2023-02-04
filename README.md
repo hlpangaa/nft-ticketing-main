@@ -71,12 +71,12 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 
 [Diagram](https://lucid.app/lucidchart/e8a1a225-ec49-4732-baaa-f6fd0f8ebb50/edit?viewport_loc=100%2C-119%2C5565%2C2235%2C0_0&invitationId=inv_503a40d6-7409-4666-947f-a204a3633f7d)
 
-# Remark
+## Remarks
 ---
-## Use Goerli Network 
+### Use Goerli Network 
 Currently deployed to test net only. Please swap to **Goerli** network to interact with the web and contract.
 
-## Use new testing wallet
+### Use new testing wallet
 Event it's pre-production. Please do not use real wallet to interact. Do not just simply create a new testing account in your existing wallet as the seed(and private key) is the same. So using that testing account might leak your key.
 
 
