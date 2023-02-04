@@ -25,7 +25,6 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 [Etherscan](https://goerli.etherscan.io/address/0x784740178e1879c4da1544c53ae658bbf0f8a078): Etherscan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform. It's for testing purpose.
 
 ### ERC
----
 - erc721 NFT
 - erc2309 Consecutive
 - ERC2981 Royalty payment
@@ -64,7 +63,6 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
   - [ ] 3.2 validate event organizer 
 
 ## Project Team Shortcut
-
 [Project Team One Drive](https://connecthkuhk-my.sharepoint.com/personal/u3590287_connect_hku_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu3590287%5Fconnect%5Fhku%5Fhk%2FDocuments%2FFITE7001%5FA%2DTeam&FolderCTID=0x012000E1CEC5B499A6824BB24DB935A2B2CB10)
 
 [Project Timeline](https://www.notion.so/ba99bc82597f40ea9b77d748156058a2?v=0cc4e4853e184202978bc97287c6416f)
@@ -72,7 +70,6 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 [Diagram](https://lucid.app/lucidchart/e8a1a225-ec49-4732-baaa-f6fd0f8ebb50/edit?viewport_loc=100%2C-119%2C5565%2C2235%2C0_0&invitationId=inv_503a40d6-7409-4666-947f-a204a3633f7d)
 
 ## Remarks
----
 ### Use Goerli Network 
 Currently deployed to test net only. Please swap to **Goerli** network to interact with the web and contract.
 
@@ -82,7 +79,6 @@ Event it's pre-production. Please do not use real wallet to interact. Do not jus
 
 
 # Reference
----
 [Patrick Collins freeCodeCamp](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
 
 [Factory Patterns](https://blog.logrocket.com/cloning-solidity-smart-contracts-factory-pattern/)
