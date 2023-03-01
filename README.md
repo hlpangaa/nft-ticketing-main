@@ -5,6 +5,7 @@ This page is the main page for others Sub-repositories. Frontend is hosted in a 
 Backend (https://github.com/hlpangaa/hardhat-nft-ticketing)
 
 Frontend (https://github.com/hlpangaa/nextjs-nft-ticketing)
+Using Material UI Template (https://github.com/hlpangaa/nextjs-nft-ticketing-material-kit)
 
 Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 
