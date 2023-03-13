@@ -1,5 +1,8 @@
 # dApp for NFT Ticketing
-This page is the main page for others Sub-repositories. Frontend is hosted Vercel (https://nextjs-nft-ticketing-mui.vercel.app). The backend is only implemented in Goerli Testnet with [NFT Marketplace](https://goerli.etherscan.io/address/0x879f5a1608e4CEd89766a6A2e1051Fd7e1B13698) and [EventFactory](https://goerli.etherscan.io/address/0x6962d60830947e32d3D22bED3542E9e846CD3F01) right now. To use the service, install metamask in your OS. Connect to Wallet and change the network to Goerli.
+This page is the main page for others Sub-repositories. Frontend is hosted Vercel (https://nextjs-nft-ticketing-mui.vercel.app). The backend is only implemented in Goerli Testnet with [NFT Marketplace](https://goerli.etherscan.io/address/0x879f5a1608e4CEd89766a6A2e1051Fd7e1B13698) and [EventFactory](https://goerli.etherscan.io/address/0x6962d60830947e32d3D22bED3542E9e846CD3F01) right now. The Factory contract will generate EventContract instance using createEvent() function. Here is an example of [EventContract](https://goerli.etherscan.io/token/0xddf06971c21b916e912a474031daf5a08140a5d3) Template. The Event metadata will be stored in infura IPFS. Here is an example of [URI](https://gateway.pinata.cloud/ipfs/QmNMsrAEvpZFx7SXThYVZ5BiVw6nt4h9tgeUZmnZFxjJ6j) template. Our schema of graphQL is defined in [here](https://github.com/hlpangaa/subgraph-nft-ticketing/blob/main/schema.graphql). The queries used by frontend is [here](https://github.com/hlpangaa/nextjs-nft-ticketing-mui/blob/main/constants/subgraphQueries.js).
+
+
+To use the service, install metamask in your OS. Connect to Wallet and change the network to Goerli.
 
 ## Sub-repositories
 Backend (https://github.com/hlpangaa/hardhat-nft-ticketing)
@@ -10,30 +13,40 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 
 ## Application Workflow
 - Deployed smart contracts in Ethereum network using hardhat framework, utilized a Next JS frontend to allow user to use Metamask to interact with the smart contract in a Web3 fashsion
-- Hosted the frontend in Fleek(decentralized nodes) and connected with theGraph(indexing protocal) to listen the event emitted under the contracts, stored metadata in InterPlanetary File System(IPFS)
+- Hosted the frontend in Vercel(next-js foundation team) and connected with theGraph(indexing protocal) to listen the event emitted under the contracts, stored metadata in InterPlanetary File System(IPFS)
 
 
 ## Tech Stack Used
 [Hardhat](https://hardhat.org/): Hardhat is a development environment for Ethereum software. It consists of different components for editing, compiling, debugging and deploying your smart contracts and dApps, all of which work together to create a complete development environment.
 
+[TheGraph](https://thegraph.com/studio/subgraph/nftticketing/playground): The Graph is an indexing protocol for querying networks like Ethereum and IPFS. The event emited from the contracts developed will be listened and indexed in the Graph so our next JS frontend can get the data from blockchain and present fast. 
+
+[Etherscan](https://goerli.etherscan.io/address/0x879f5a1608e4CEd89766a6A2e1051Fd7e1B13698): Etherscan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform. It's for testing purpose.
+
+[Vercel](https://vercel.com/dashboard) is a cloud-based platform for deploying, scaling, and collaborating on web applications. It allows developers to deploy websites and applications quickly and easily, with automatic scaling and a global content delivery network (CDN) to ensure fast performance.
+
+[Infura](https://app.infura.io/) infura IPFS is a service provided by Infura, a company that offers scalable and reliable infrastructure for decentralized web technologies such as Ethereum and IPFS
+
+
+## No longer used
+Fleek - cannot store API key as encrpted envrionment variables
+Pinata - issue for client side rendering because it has a package dependency of file system package(fs). There is no fs in client side.
+
 [Fleek](https://app.fleek.co/#/sites/little-poetry-5496/settings/general?accountId=d5e70534-8482-4d48-bad2-440122944ad5): Fleek is a suite of tools with everything you need to build modern sites and apps on the Open Web and its protocols seamlessly. We hosted our frontend in the Fleek node so people can enquire the site via public internet.
 
 [Pinata](https://app.pinata.cloud/pinmanager#): Pinata. cloud is a pinning service that allows users to host files on the IPFS network. We stored metadata and images in Pinata.
 
-[TheGraph](https://thegraph.com/studio/subgraph/nftticketing/playground): The Graph is an indexing protocol for querying networks like Ethereum and IPFS. The event emited from the contracts developed will be listened and indexed in the Graph so our next JS frontend can get the data from blockchain and present fast.
-
-[Etherscan](https://goerli.etherscan.io/address/0x784740178e1879c4da1544c53ae658bbf0f8a078): Etherscan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform. It's for testing purpose.
-
 ### ERC
 - erc721 NFT
-- erc2309 Consecutive
 - ERC2981 Royalty payment
-- SDK from providers
+- ERC721 Storage
 
 ### Web3 developemnt library
-- openzeppelin
-- Web3uikit
-- tailwindcss
+- openzeppelin -- contract development
+- infura -- ipfs-http-client to add file to IPFS
+- apolo -- useQuery to interact with the Graph DB
+- Wagmi -- useContractRead and useContractWrite hook
+- Rainbowkit -- wallet connection
 
 ## Scope of functions
 - [ ] 1. eventFactory.sol
