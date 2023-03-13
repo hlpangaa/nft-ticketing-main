@@ -1,5 +1,5 @@
 # dApp for NFT Ticketing
-This page is the main page for others Sub-repositories. Frontend is hosted in a [IPFS node](https://little-poetry-5496.on.fleek.co). The backend is only implemented in Goerli Testnet with [NFT Marketplace](https://goerli.etherscan.io/address/0x784740178e1879c4da1544c53ae658bbf0f8a078) right now. To use the service, install metamask in your OS. Connect to Wallet and change the network to Goerli.
+This page is the main page for others Sub-repositories. Frontend is hosted Vercel (https://nextjs-nft-ticketing-mui.vercel.app). The backend is only implemented in Goerli Testnet with [NFT Marketplace](https://goerli.etherscan.io/address/0x879f5a1608e4CEd89766a6A2e1051Fd7e1B13698) and [EventFactory](https://goerli.etherscan.io/address/0x6962d60830947e32d3D22bED3542E9e846CD3F01) right now. To use the service, install metamask in your OS. Connect to Wallet and change the network to Goerli.
 
 ## Sub-repositories
 Backend (https://github.com/hlpangaa/hardhat-nft-ticketing)
