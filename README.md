@@ -23,15 +23,16 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 
 [TheGraph](https://thegraph.com/studio/subgraph/nftticketing/playground): The Graph is an indexing protocol for querying networks like Ethereum and IPFS. The event emited from the contracts developed will be listened and indexed in the Graph so our next JS frontend can get the data from blockchain and present fast. 
 
-[Etherscan](https://goerli.etherscan.io/address/0x879f5a1608e4CEd89766a6A2e1051Fd7e1B13698): Etherscan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform. It's for testing purpose.
-
 [Vercel](https://vercel.com/dashboard) is a cloud-based platform for deploying, scaling, and collaborating on web applications. It allows developers to deploy websites and applications quickly and easily, with automatic scaling and a global content delivery network (CDN) to ensure fast performance.
 
 [Infura](https://app.infura.io/) infura IPFS is a service provided by Infura, a company that offers scalable and reliable infrastructure for decentralized web technologies such as Ethereum and IPFS
 
+[Etherscan](https://goerli.etherscan.io/address/0x879f5a1608e4CEd89766a6A2e1051Fd7e1B13698): Etherscan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform. It's for testing purpose.
 
-## No longer used
-Fleek - cannot store API key as encrpted envrionment variables. 
+
+
+### No longer used
+Fleek - cannot store API key as encrpted envrionment variables.  
 Pinata - issue for client side rendering because it has a package dependency of file system package(fs). There is no fs in client side.  
 
 [Fleek](https://app.fleek.co/#/sites/little-poetry-5496/settings/general?accountId=d5e70534-8482-4d48-bad2-440122944ad5): Fleek is a suite of tools with everything you need to build modern sites and apps on the Open Web and its protocols seamlessly. We hosted our frontend in the Fleek node so people can enquire the site via public internet.
@@ -39,9 +40,9 @@ Pinata - issue for client side rendering because it has a package dependency of 
 [Pinata](https://app.pinata.cloud/pinmanager#): Pinata. cloud is a pinning service that allows users to host files on the IPFS network. We stored metadata and images in Pinata.
 
 ### ERC
-- erc721 NFT
-- ERC2981 Royalty payment
-- ERC721 Storage
+- ERC721 NFT
+- ERC2981 Royalty payment -- to ensure the artist can have a share of secondary market trade
+- ERC721 Storage Extension. -- to implement URI.
 
 ### Web3 developemnt library
 - openzeppelin -- contract development
