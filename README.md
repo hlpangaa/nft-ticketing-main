@@ -31,8 +31,8 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 
 
 ## No longer used
-Fleek - cannot store API key as encrpted envrionment variables
-Pinata - issue for client side rendering because it has a package dependency of file system package(fs). There is no fs in client side.
+Fleek - cannot store API key as encrpted envrionment variables. 
+Pinata - issue for client side rendering because it has a package dependency of file system package(fs). There is no fs in client side.  
 
 [Fleek](https://app.fleek.co/#/sites/little-poetry-5496/settings/general?accountId=d5e70534-8482-4d48-bad2-440122944ad5): Fleek is a suite of tools with everything you need to build modern sites and apps on the Open Web and its protocols seamlessly. We hosted our frontend in the Fleek node so people can enquire the site via public internet.
 
