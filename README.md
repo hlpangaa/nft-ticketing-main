@@ -85,7 +85,7 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 ### 5. My Ticket
 1. A Page to show tickets owned by signer addgress.
 
-![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Recent-Event.png)
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/My-Ticket.png)
 
 ### 6. Ticket Detail
 1. Allow users to Trade the tickets
