@@ -62,7 +62,7 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 ### 2. Ticket Swap
 1. Allow users to Trade the tickets. Offer providers (seller) can update and delist the offer. Buyer can buy the offer.
 
-![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Ticket-Swap.png)
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Ticket-Swap2.png)
 
 ![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Update-Offer.png)
 
@@ -117,7 +117,7 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 ![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Ticket-Detail-listedItem.png)
 
 
-### Payment History and withdraw fund
+### 7. Payment History and withdraw fund
 1. user can view the payment history in the marketplace. 
 
 2. user can view the fund deposited in the marketplace (fund come from selling ticket in P2P market), they can withdrwa the fund as well.
