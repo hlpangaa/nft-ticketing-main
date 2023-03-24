@@ -57,7 +57,78 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 
 ![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/IPFS-json.png)
 
-![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/IPFS-image.png)
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/IPFS-Image.png)
+
+### 2. Ticket Swap
+1. Allow users to Trade the tickets. Offer providers (seller) can update and delist the offer. Buyer can buy the offer.
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Ticket-Swap.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Update-Offer.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Delist-Offer.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Buy-Offer.png)
+
+### 3. My Event
+1. A Page to show events owned by signer addgress. 
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Recent-Event.png)
+
+### 4. Event Detail
+1. Allow user to mint the ticket.
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/My-Event-Mint.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/My-Event-NFT-Minted.png)
+
+### 5. My Ticket
+1. A Page to show tickets owned by signer addgress.
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Recent-Event.png)
+
+### 6. Ticket Detail
+1. Allow users to Trade the tickets
+
+2. User need to approve NFT marketplace to trade first.
+
+3. non-owner can still access the page but cannot interact with the any function.
+
+4. user can view the URI in clear format by clicking hidden/display URI
+
+5. QR code can be used for entering the evnet.
+
+6. The ticket price should between 0 to price celling. Otherwise, error message will be shown and block the dialog window closing.
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Ticket-Detail-no-Approve.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Ticket-Detail-listed.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Approve-Marketplace.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Ticket-Detail-has-approve.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Sell-Ticket.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Sell-Ticket--veCase.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Sell-Ticket-Trans.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/Ticket-Detail-listedItem.png)
+
+
+### Payment History and withdraw fund
+1. user can view the payment history in the marketplace. 
+
+2. user can view the fund deposited in the marketplace (fund come from selling ticket in P2P market), they can withdrwa the fund as well.
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/PaymentHistory.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/WithDraw%20Proceeds.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/WithDrawl-fund-in-progress.png)
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/WithDrawl-fund-completed.png)
 
 ### No longer used
 Fleek - cannot store API key as encrpted envrionment variables.  
