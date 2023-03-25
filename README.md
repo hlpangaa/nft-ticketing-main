@@ -17,6 +17,17 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 - Deployed smart contracts in Ethereum network using hardhat framework, utilized a Next JS frontend to allow user to use Metamask to interact with the smart contract in a Web3 fashsion
 - Hosted the frontend in Vercel(next-js foundation team) and connected with theGraph(indexing protocal) to listen the event emitted under the contracts, stored metadata in InterPlanetary File System(IPFS)
 
+## architecture Diagram 
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/reference-arc-diagram.png)
+[Reference](https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps/)
+
+In this architecture diagram, the user's browser acts as the entry point for the application. The frontend application is built using Next.js and relies on several JavaScript libraries, including Rainbowkit for connecting to the user's Metamask wallet, Wagmi for interacting with the Ethereum network, Infura for accessing IPFS, and Apollo Client for fetching data from TheGraph network.
+
+The Ethereum network hosts the smart contracts written in Solidity and developed using tools such as Hardhat, Remix and Ganache. The IPFS system provides a decentralized file storage system for storing JSON and image files. TheGraph network provides an indexing protocol for querying the blockchain.
+
+When a user logs into their Metamask wallet, they can interact with the smart contracts on the Ethereum network through the frontend application. The frontend can also upload and retrieve files from IPFS, as well as fetch data from TheGraph network using Apollo Client.
+
 
 ## Tech Stack Used
 [Hardhat](https://hardhat.org/): Hardhat is a development environment for Ethereum software. It consists of different components for editing, compiling, debugging and deploying your smart contracts and dApps, all of which work together to create a complete development environment.
