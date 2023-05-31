@@ -1,3 +1,9 @@
+# live-Demo
+
+[![Demo-Video](https://media.giphy.com/media/Eu2gGplZjiJxNi7SdR/giphy.gif)](https://www.youtube.com/watch?v=j61l2tU_RHk&ab_channel=FrankiePang)
+
+*Click on the video to view it on YouTube*
+
 # dApp for NFT Ticketing
 This page is the main page for others Sub-repositories. Frontend is hosted in Vercel (https://nextjs-nft-ticketing-mui.vercel.app). The backend is only implemented in Goerli Testnet with [NFT Marketplace](https://goerli.etherscan.io/address/0x879f5a1608e4CEd89766a6A2e1051Fd7e1B13698) and [EventFactory](https://goerli.etherscan.io/address/0x6962d60830947e32d3D22bED3542E9e846CD3F01) right now. The Factory contract will generate EventContract instance using createEvent() function. Here is an example of [EventContract](https://goerli.etherscan.io/token/0xddf06971c21b916e912a474031daf5a08140a5d3) Template.  
 
