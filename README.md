@@ -25,7 +25,7 @@ Subgraph (https://github.com/hlpangaa/subgraph-nft-ticketing)
 
 ## Architecture Diagram 
 
-![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/reference-arc-diagram.png)
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/new_ad.png)
 [Reference from thenewstack.io](https://thenewstack.io/web3-architecture-and-how-it-compares-to-traditional-web-apps/)
 
 In our architecture diagram, the user's browser acts as the entry point for the application. The frontend application is built using Next.js and relies on several JavaScript libraries, including Rainbowkit for connecting to the user's Metamask wallet, Wagmi for interacting with the Ethereum network, Infura for accessing IPFS, and Apollo Client for fetching data from TheGraph network.
@@ -36,6 +36,9 @@ When a user logs into their Metamask wallet, they can interact with the smart co
 
 
 ## Tech Stack Used
+
+![screenshoot](https://raw.githubusercontent.com/hlpangaa/nft-ticketing-main/master/Assets/new_tech_stacks.png)
+
 [Hardhat](https://hardhat.org/): Hardhat is a development environment for Ethereum software. It consists of different components for editing, compiling, debugging and deploying your smart contracts and dApps, all of which work together to create a complete development environment.
 
 [TheGraph](https://thegraph.com/studio/subgraph/nftticketing/playground): The Graph is an indexing protocol for querying networks like Ethereum and IPFS. The event emited from the contracts developed will be listened and indexed in the Graph so our next JS frontend can get the data from blockchain and present fast. 
